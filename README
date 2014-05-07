@@ -1,0 +1,4 @@
+This application requires "mysql-connector-java" and is tested with version "3.1.14-bin".
+Included in the source code are two other projects/libraries which I did not write. PIRC(IRC bot) and JSON(used for config and web interface) 
+
+This should be run as an application from command line and as such has no graphical interface.

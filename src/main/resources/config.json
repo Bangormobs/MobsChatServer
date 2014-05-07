@@ -1,0 +1,52 @@
+{
+    "servers": {
+        "MOBS-main": {
+            "Colour": "0000ff",
+            "Name": "Mobs Main Server",
+            "Password": "pass"
+        },
+        "Mobs-Modpack": {
+            "Colour": "ff0000",
+            "Name": "Mobs Modpack Server",
+            "Password": "pass2"
+        },
+        "Mobs-Spawn": {
+            "Colour": "00ffff",
+            "Name": "Mobs Spawn Build",
+            "Password": "pass3"
+        }
+    },
+    "connections": {
+    	"IRC": {
+    		"Type": "IRCConnector",
+    		"host": "irc.esper.net",
+    		"nick": "IRCUserNameHere",
+    		"serverpass" : None,
+    		"nickservpass": "insertPassHere",
+    		"chan": "#channel",
+    		"allowcolours": "true",
+    		"Colour": "ff00ff"
+    	},
+    	"Twitch": {
+    		"Type": "IRCConnector",
+    		"host": "irc.twitch.tv",
+    		"nick": "IRCUserNameHere",
+    		"serverpass": "passForServerConnectionHere",
+    		"nickservpass": "insertPassHere",
+    		"chan": "#channel",
+    		"nickservpass": "insertPassHere",
+    		"allowcolours": "false";
+    		"Colour": "ffff00"
+    	},
+    	"Mobile Chat": {
+    		"Type": "JSONConnector",
+    		"Colour": "xxxxxx"
+    	}
+    },
+    "mysql": {
+    	"host": "localhost",
+    	"db": "Database",
+    	"username": "web",
+    	"password": "password"
+    }
+}

@@ -1,0 +1,11 @@
+Correctly set out pom.xml to rely on:
+- mysql-connector
+- MobsChatCommon
+
+Write API
+
+Write up basic plugin-system to allow connectors to be external
+
+Move IRC/JSON into external plugins.
+
+
