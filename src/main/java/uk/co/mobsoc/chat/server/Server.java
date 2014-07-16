@@ -514,6 +514,9 @@ public class Server implements Runnable {
 		if(namePrefix==null){ namePrefix=""; }
 		if(user.rank.equalsIgnoreCase("a")){
 			if(namePrefix.equals("")){ namePrefix="A"; }
+			rankPrefix = "§aff0000("+namePrefix+")";
+		}else if(user.rank.equalsIgnoreCase("e")){
+			if(namePrefix.equals("")){ namePrefix="E"; }
 			rankPrefix = "§aff00ff("+namePrefix+")";
 		}else if(user.rank.equalsIgnoreCase("c")){
 			if(namePrefix.equals("")){ namePrefix="C"; }
